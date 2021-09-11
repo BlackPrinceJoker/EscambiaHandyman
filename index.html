@@ -12,27 +12,111 @@
 		</head>
 		
 		<style>
+			.orange {
+				background-color: #ff4400;
+			}
+			.grey {
+				background-color: #262626;
+				color: white;
+			}
+			.white {
+				background-color: white;
+			}
+			
 		</style>
 		
 		<body>
-			<nav class="navbar navbar-expand-sm bg-secondary">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link text-white" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-white" href="#">Link</a>
-					</li>
-				</ul>
+			<nav class="navbar navbar-expand-sm navbar-dark grey">
+				<a class="navbar-brand" href="#">Escambia Handyman</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#services">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
-			<div class="jumbotron jumbotron-fluid bg-danger" style="text-align: center">
-				<h1 class="text-warning"> This site is under construction... </h1>
+			
+			<div class="jumbotron white">
+				<div class="container pt-5">
+					<img src="Logoblack.png" class="mx-auto d-block" style="width:80%">
+				</div>
+			
+				<div class="container pt-5">
+					<h2 id="services"> Services </h2>
+					<table class="table">
+						<tbody>
+							<tr class="ltOrange">
+								<td>Door Hardware Installation</td>
+								<td>Wireless Security Mounting</td>
+								<td>Furniture Assembly</td>
+							</tr>
+							<tr>
+								<td>Fence and Gate Repair</td>
+								<td>Closet System Installation</td>
+								<td>Curtain Rod Installation</td>
+							</tr>
+							<tr class="ltOrange">
+								<td>Install TV mounts</td>
+								<td>Wall Hangings</td>
+								<td>Regular Home Maintenance Tasks</td>
+							</tr>
+							<tr>
+								<td>Wood Shed Repair</td>
+								<td>Shed Shelves Construction</td>
+								<td></td>
+							</tr>							
+						</tbody>
+					</table>
+				</div>
+				
+				<div class="container pt-5">
+					<h2 id="about"> About Us</h2>
+					<hr>
+					<div class="container">
+						<div class="jumbotron">
+						</div>
+					</div>
+				</div>
+				
+				<div class="container pt-5">
+					<h2 id="contact"> Contact </h2>
+					<hr>
+					
+					<div class="card">
+						<div class="card-header ltOrange">
+							<h4> Email </h4>
+						</div>
+						
+						<div class="card-body">
+							<h4> <a href="mailto:escambiahandyman@gmail.com">escambiahandyman@gmail.com</a> </h4> 
+						</div>
+					</div>
+					
+					<div class="card">
+						<div class="card-header ltOrange">
+							<h4> Text </h4>
+						</div>
+						
+						<div class="card-body">
+							<h4> 850-292-1600 </h4> 
+						</div>
+					</div>
+				</div>
 			</div>
+			
+			
 		</body>
 		
 		<script>
 		</script>
-	</html> 
+	</html>
